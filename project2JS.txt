@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #80bfff;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 10px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-bottom: 7px;
+}
+.aside2 {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 758px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+		background-color: #e6f3ff;
+    }
+}
+</style>
+</head>
+<body>
+<div class="header">
+<img src="khoger_dosky.jpg" width="150" height="150">
+<h1>Khoger Dosky</h1>
+</div>
+<div class="row">
+<div class="col-3 menu">
+<ul>
+<li>Profile</li>
+<li>Work Experience</li>
+<li>Education</li>
+<li>Skills</li>
+<li>Certifications</li>
+<li>Additional Information</li>
+</ul>
+</div>
+<div class="col-6">
+<h1>Career Objective</h1>
+<p>Looking for an entry-level position as a Software Engineer in a dynamic firm that values my analytical and technical skills and provides scope for updating my knowledge, I seek a company that will help me contribute to its development while concurrently aiding my personal growth.</p>
+</div>
+<div class="col-3 right">
+<div class="aside">
+<h2>B.S. in Software Development and Security</h2>
+<p>University of Maryland Global Campus - Adelphi, MD<p>
+<p>September 2019 to Present</p>
+<h2>A.S. in Business Administration</h2>
+<p>Northern Virginia Community College - Annandale, VA<p>
+<p>May 2014 to December 2016</p>
+<h2>High school</h2>
+<p>Oakton High School - Vienna, VA<p>
+<p>September 2000 to June 2004<p>
+</p>
+</div>
+<div class="aside">
+<p>"Works very hard!" - Former Boss<p>
+<p>"Always there to help!" - Former Boss2<p>
+<p>"Gets things done!" - Former Boss3<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<h3>References available upon request.</h3>
+</div>
+</body>
+</html>
